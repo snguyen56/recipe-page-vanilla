@@ -106,6 +106,19 @@ h2 {
   margin-bottom: 5px;
   line-height: 1.5;
 }
+.ingredients-list li {
+  margin-bottom: 2px;
+}
+.ingredients-list li:last-child {
+  margin-top: 5px;
+  margin-bottom: 14px;
+}
+.divider {
+  background-color: var(--stone-150);
+  height: 1px;
+  width: inherit;
+  margin-right: 35px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
