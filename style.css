@@ -179,3 +179,29 @@ td {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: var(--stone-100);
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    padding-top: 122px;
+  }
+  main {
+    width: 736px;
+    height: 1706px;
+    overflow: hidden;
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 25px;
+  }
+  .dish-img {
+    width: 656px;
+    height: 300px;
+    margin: 0;
+  }
+  .dish-img img {
+    border-radius: 12px;
+  }
+}
