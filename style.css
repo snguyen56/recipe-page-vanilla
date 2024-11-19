@@ -204,4 +204,37 @@ td {
   .dish-img img {
     border-radius: 12px;
   }
+  h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+  aside {
+    margin-right: 0;
+    padding-left: 28px;
+    padding-top: 8px;
+  }
+  .ul li {
+    margin-bottom: 2px;
+  }
+  ul li:last-child {
+    margin-top: 2px;
+  }
+  h2 {
+    margin-top: 26px;
+  }
+  .divider {
+    flex-shrink: 0;
+    width: 100%;
+  }
+  .ingredients-list li:last-child {
+    margin-top: 0px;
+    margin-bottom: 12px;
+  }
+  ol {
+    padding-right: 0px;
+  }
+  th {
+    width: 53.5%;
+  }
 }
