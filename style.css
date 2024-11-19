@@ -174,7 +174,7 @@ td {
   position: absolute;
   font-size: 11px;
   text-align: center;
-  bottom: -10px;
+  bottom: -20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -191,7 +191,6 @@ td {
   main {
     width: 736px;
     height: 1706px;
-    overflow: hidden;
     background-color: var(--white);
     padding: 40px;
     border-radius: 25px;
@@ -236,5 +235,11 @@ td {
   }
   th {
     width: 53.5%;
+  }
+  .attribution {
+    position: absolute;
+    bottom: -30px;
+    padding-right: 30px;
+    width: 100%;
   }
 }
