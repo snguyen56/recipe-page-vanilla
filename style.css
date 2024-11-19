@@ -179,11 +179,9 @@ td {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
 @media screen and (min-width: 768px) {
   body {
     background-color: var(--stone-100);
-    width: 100vw;
     display: grid;
     place-items: center;
     padding-top: 122px;
@@ -237,7 +235,6 @@ td {
     width: 53.5%;
   }
   .attribution {
-    position: absolute;
     bottom: -30px;
     padding-right: 30px;
     width: 100%;
